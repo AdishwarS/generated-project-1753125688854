@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: default-project
+  title: default-project
+  description: Generated project
+  annotations:
+    github.com/project-slug: 
+    backstage.io/managed-by-location: file:./catalog-info.yaml
+    jira.com/project-key: SCRUM
+  tags:
+spec:
+  type: service
+  owner: Default Team
+  lifecycle: experimental
+  system: microservices-platform
